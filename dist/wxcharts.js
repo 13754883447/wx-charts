@@ -1925,7 +1925,7 @@ var Charts = function Charts(opts) {
 
     this.opts = opts;
     this.config = config$$1;
-    this.context = wx.createCanvasContext(opts.canvasId);
+    this.context = my.createCanvasContext(opts.canvasId);
     // store calcuated chart data
     // such as chart point coordinate
     this.chartData = {};

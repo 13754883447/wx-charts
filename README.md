@@ -1,5 +1,34 @@
-# wx-charts
-微信小程序图表工具，charts for WeChat small app
+﻿# alibaba-charts
+支付宝小程序图表工具，charts for WeChat small app
+
+这个是我用的别人的,本人还没这能力。所以换着用.
+
+
+结合支付宝文章  
+
+把wx.createCanvasContext('id')
+
+换成 my.createCanvasContext('id')
+
+记得把axml view视图层上面 canvas-id="xx"   换成id="xx"
+源码部分我已经改好   API请参考工具创作者     
+
+直接引入 /dist/下面的文件就好了     本人是个菜鸡。。。没抄袭。。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 基于canvas绘制，体积小巧
 
